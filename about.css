@@ -1,5 +1,5 @@
 
-body{
+#about_body{
   width: 100%;
   margin: 0 auto;
   background-image: url("images/optimized/background-3.jpg");
@@ -9,14 +9,14 @@ body{
   line-height: 1.6;
 }
 
-main{
+#about_main{
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color: #F2F1E8;
 }
 
-p{
+#about_main p{
   font-size: 25px;
 }
 aside {
@@ -43,8 +43,6 @@ article{
   align-self: center;
   width: 70%;
   margin: 40px auto;
-
-
 
 }
 
