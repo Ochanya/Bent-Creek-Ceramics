@@ -75,14 +75,17 @@ main  article{
 .no_background_color{
 height: 250px;
 padding-top: 50px;
+background-image: url("images/optimized/background-3.jpg");
+background-size: 100%;
 }
 
 .no_background_color header h1{
 font-size: 4em;
-color:lightgrey;
+color:#F2F1E8;
 display: flex;
 justify-content: center;
 align-content: center;
+
 }
 
 
