@@ -12,11 +12,11 @@ body{
 .header_nav a{
   display: flex;
   padding: 20px;
+  font-size: x-large;
+  padding: 25px;
 }
 
 #site_container{
-  border-bottom: 1px solid lightgrey;
-  background-color: white;
   position: fixed;
   width: 100%;
   z-index:100;
@@ -45,10 +45,6 @@ width :15%;
 
 }
 
-.header_nav a{
-  font-size: x-large;
-  padding: 25px;
-}
 .main_content_newsletter {
 width: 100%;
 display: flex;
@@ -82,7 +78,7 @@ justify-content: center;
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  height: 400px;
+  height: 450px;
   margin:30px;
 
 }
@@ -90,8 +86,8 @@ justify-content: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding:20px;
-  padding-bottom: 100px;
+  padding: 30px;
+      /* padding-bottom: 100px; */
 }
 .sign_up_form h1, h2{
   align-self: center;
@@ -103,7 +99,6 @@ justify-content: center;
   justify-content: center;
 }
 #name{
-
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -112,4 +107,23 @@ justify-content: center;
   border-top: 0;
   border-left: 0;
   border-right: 0;
+}
+#submit_button{
+  width: 25%;
+  align-self: center;
+  padding: 25px;
+  background-color: grey;
+  color: white;
+  align-content: center;
+  border-style: hidden;
+  font-size: 20px;
+}
+
+label{
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+input{
+  padding-bottom: 5px;
 }
