@@ -16,9 +16,10 @@ body{
 }
 
 #site_container{
-  background-size: 100%;
-  height: 100%;
-
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  position: fixed;
+  width: 100%;
 }
 
 #site_container header{

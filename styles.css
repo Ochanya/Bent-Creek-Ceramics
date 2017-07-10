@@ -23,7 +23,9 @@ footer{
 }
 #site_container{
   border-bottom: 1px solid lightgrey;
-  background-image: url();
+  background-color: white;
+  position: fixed;
+  width: 100%;
 }
 #site_container header{
   display: flex;
