@@ -1,7 +1,6 @@
 
 
 body{
-
   background-image: url("images/optimized/background-2.jpg");
   background-size: 100%;
 }
@@ -20,6 +19,7 @@ body{
   background-color: white;
   position: fixed;
   width: 100%;
+  z-index:100;
 }
 
 #site_container header{
@@ -55,9 +55,7 @@ display: flex;
 justify-content: center;
 }
 
-#main_header {
 
-}
 
 #main_header div{
   display: flex;
@@ -98,8 +96,20 @@ justify-content: center;
 .sign_up_form h1, h2{
   align-self: center;
   margin: 10px;
+  padding-bottom: 20px;
 }
 #main_content_newsletter{
   display: flex;
   justify-content: center;
+}
+#name{
+
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+#Email{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
 }
